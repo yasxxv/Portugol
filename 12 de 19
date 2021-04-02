@@ -1,0 +1,36 @@
+programa
+{
+real num1, num2, num3, num4, num5, num6, num7, num8, num9, num10, total
+	
+	funcao inicio()
+	{
+		escreva("digite 10 numeros: \n")
+		leia(num1)
+		leia(num2)
+		leia(num3)
+		leia(num4)
+		leia(num5)
+		leia(num6)
+		leia(num7)
+		leia(num8)
+		leia(num9)
+		leia(num10)
+		limpa()
+
+		total = (num1+num2+num3+num4+num5+num6+num7+num8+num9+num10)
+
+		escreva("A some é: ", total)
+		
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 17; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
